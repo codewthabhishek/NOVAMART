@@ -1,0 +1,416 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:#ffffff;
+    align-content: center;
+    position:fixed;
+    z-index:2;
+    /* border: top 2px; */
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_panel{
+    display:flex;
+    justify-content: space-around;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_buttons{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    top:5px;
+}
+
+.navbar_buttons:hover{
+    color:rgb(255, 82, 0);
+}
+
+#search{
+    width:500px;
+    height:30px;
+    border:1px solid rgba(0, 0, 0, 0.258);
+    border-radius:30px;
+    padding-left:20px;
+}
+
+.navbar_panel_logos{
+    display:flex;
+    align-items:center;
+    justify-content: center;;
+}
+
+
+#my_profile{
+    position:relative;
+    right:10px;
+}
+
+
+
+#order{
+    position:relative;
+    bottom:5px;
+    left:5px;
+}
+
+#order_logo{
+    position:relative;
+    top:5px;
+}
+
+#cart_logo{
+    position:relative;
+    right:2px;
+    top:5px;
+}
+
+
+#logo{
+    font-size:24px;
+    color:rgb(255, 82, 0);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+
+.main_body{
+    height:100vh;
+    width:100%;
+    /* background-color:#90E0EF; */
+}
+
+.hero_body{
+    background-color:whitesmoke;
+    height:100%;
+    width:100%;
+    position:relative;
+    top:70px;
+}
+
+
+.panel1{
+    height:126px;
+    width:100%;
+    background-color:#ffffff;
+    position:relative;
+    top:10px;
+    display:flex;
+    align-items:center;
+    padding-left:16px;
+    justify-content: space-evenly;
+    
+}
+
+.hero_body_main{
+    height:1600px;
+    width:80%;
+    
+    /* background-color:yellow; */
+    margin-left:150px;
+    margin-top:90px;
+    /* border:1px solid black; */
+    
+    
+}
+
+
+#panel2_heading{
+    font-size:36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+}
+
+.panel2_outerbox{
+    height:350px;
+    width:100%;
+    /* background-color:red; */
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);  
+    gap: 20px; 
+    padding: 20px; 
+    box-sizing: border-box;
+    border:1px solid rgba(0, 0, 0, 0.147);
+    border-radius:15px;
+
+}
+
+.panel2_outerbox_heading {
+    grid-column: 1 / -1;   /* makes heading span full width */
+    display: block;
+    margin-bottom: 20px;
+}
+
+#panel2_outerbox_mainheading{
+    font-size:20px;
+    color:#545454;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+    padding-left:50px;
+}
+
+.panel2_boxes{
+    height:72px;
+    width:140px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:rgba(245, 245, 245, 1.00);
+    border-radius:10px;
+    margin-left:20px;
+    /* padding-left:50px; */
+}
+
+.panel2_outerboxes{
+    padding-top:4px;
+}
+
+.panel2_outerboxes_names{
+    font-size:12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.panel2_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel2_item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 180px;        
+}
+
+.panel2_box_name {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #0f0f0f;
+    padding-left:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+}
+
+
+.panel3_outerbox{
+    height:400px;
+    width:100%;
+    background-color:pink;
+    background-image: url(/NovaMart/NovaEats/NovaServices/smartlocks.png);
+    background-size: cover;
+}
+
+#panel4_heading{
+    font-size:36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+}
+
+.panel4_outerbox{
+    height:300px;
+    width:100%;
+    /* background-color:green; */
+    /* border:1px solid rgba(0, 0, 0, 0.147); */
+    /* border-radius:15px; */
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.panel4_items{
+    height:279px;
+    width:233px;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  /* pushes title up and img down */
+    overflow: hidden;
+}
+
+.panel4_title {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position:relative;
+    top:30px;
+    right:20px;
+}
+
+.panel4_boxes img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;   /* or "contain" if you want full image */
+}
+
+
+#panel5_heading{
+    font-size:36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+}
+
+.panel5_outerbox{
+    height:300px;
+    width:100%;
+    /* background-color:green; */
+    /* border:1px solid rgba(0, 0, 0, 0.147); */
+    /* border-radius:15px; */
+    display:flex;
+    align-items:center;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.panel5_items{
+    height:279px;
+    width:233px;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  /* pushes title up and img down */
+    overflow: hidden;
+}
+
+.panel5_title {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position:relative;
+    top:30px;
+    right:20px;
+}
+
+.panel5_boxes img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;   /* or "contain" if you want full image */
+}
+
+
+#panel5_heading{
+    font-size:36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+}
+
+.footer{
+    background-color:#f5f5f5;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    position:relative;
+    top:150px;
+}
+
+
+#footer_logo{
+    color:#ff5200;
+    font-size:34px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    text-decoration:none;
+    position:relative;
+    top:50px;
+    left:120px;
+}
+
+.footer_links{
+    /* background-color:green;  */
+    height:300px;
+    width:90%;
+    position:relative;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(2, 6, 12, 0.142)
+}
+
+.footer_links_sections ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.footer_links_sections ul,li:hover{
+    color:#ff5200;
+}
+
+.footer_links_sections_four ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.social_media_logos{
+    padding-right:5px;
+}
+
+
+.footer_links_headings{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    pointer-events: none;
+    
+}
+
+.company_links{
+    font-size:16px;
+
+}
+
+.copyright_section{
+    height:50px;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    position:relative;
+    top:100px;
+    align-items:center;
+    justify-content: center;
+}
+
+#copyright{
+    color:rgba(2, 6, 12, 0.6);
+    font-size:14px;
+    padding-top:10px;
+}

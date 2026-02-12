@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="navbar">
+        <div class="navbar_panel">
+            <a href="#" id="logo">NovaMart</a>
+            <form action="/search.php">
+                <input type="search" placeholder="Search for clothing, brands and more" id="search" class="search">
+            </form>
+            <span class="navbar_panel_logos">
+                <img src="/profilelogo.png" alt="user profile logo" width="50px">
+                <a href="profile.html" class="navbar_buttons" id="my_profile">My Profile</a>
+            </span>
+            
+            <span class="navbar_panel_logos">
+                <img src="/Mycartlogo.png" alt="cart logo" width="25px" id="cart_logo">
+                <a href="cart.html" class="navbar_buttons" id="mycart">Cart</a>
+            </span>
+            <span class="navbar_panel_logos">
+                <img src="/orderlogo.png" alt="cart logo" width="25px" id="order_logo">
+                <a href="orders.html" class="navbar_buttons" id="order">Orders</a>
+            </span>
+            
+        </div>
+    </div>
+    </header>
+    <br><br><br>
+    <br><br><br>
+
+<h1 class="profile-title">My Profile</h1>
+
+<div class="profile-container">
+
+    <!-- PERSONAL INFO CARD -->
+    <div class="profile-card">
+        <h2>Personal Information</h2>
+
+        <div class="info-row">
+            <span class="label">Name:</span>
+            <span class="value" id="pName"></span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Email:</span>
+            <span class="value" id="pEmail"></span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Phone:</span>
+            <span class="value" id="pPhone"></span>
+        </div>
+    </div>
+
+
+    <!-- LOGOUT CARD -->
+    <div class="profile-card full">
+        <h2>Account Settings</h2>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <!-- FAQ CARD -->
+    <div class="profile-card full">
+        <h2>FAQs</h2>
+
+        <ul class="faq-list">
+            <li>How to cancel order?</li>
+            <li>How to return product?</li>
+            <li>How to change account details?</li>
+        </ul>
+    </div>
+
+</div>
+<footer class="footer">
+        <div class="footer_logo">
+            <a href="#" id="footer_logo">NovaMart</a>
+        </div>
+
+        <div class="footer_links">
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">company</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li>about us</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy policy</li>
+                            <li>Partners</li>
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">For customers</li>
+                            <a href="#" class="footer_links_heading_categories">
+                        <a href="/NovaMart/index.html"><img src="novamart.png" alt="NovaMart logo" width="150px"></a> 
+                        <a href="/NovaMart/NovaEats/index.html"><img src="NovaEats.png" alt="NovaEats logo" width="150px"></a>  
+                        <a href="/NovaMart/NovaEats/NovaServices/index.html"><img src="NovaServices.png" alt="NovaServices logo" width="150px"></a>    
+                            
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">Contact us</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li>Help & Support</li>
+                            
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections_four ">
+                <ul>
+                            <li class="footer_links_headings">Connect</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li><img src="/instagram.png" alt="instagram logo" width="20px" class="social_media_logos">Instagram</li>
+                            <li><img src="/linkedin.png" alt="instagram logo" width="20px" class="social_media_logos">Linkedin</li>
+                            <li><img src="/twitter.png" alt="instagram logo" width="20px" class="social_media_logos">Twitter</li>
+                            <li><img src="/facebook.png" alt="instagram logo" width="20px" class="social_media_logos">Facebook</li>
+                            </a>
+                        </ul>
+            </div>
+            
+        </div>
+        <div class="copyright_section">
+                <p id="copyright">© 2025 NovaMart. All rights reserved.</p>
+            
+        </div>
+    </footer>
+
+<script src="profile.js"></script>
+
+</body>
+</html>

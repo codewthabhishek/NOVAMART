@@ -1,0 +1,511 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:#ffffff;
+    align-content: center;
+    position:fixed;
+    z-index:2;
+    /* border: top 2px; */
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_panel{
+    display:flex;
+    justify-content: space-around;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_buttons{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    top:5px;
+}
+
+.navbar_buttons:hover{
+    color:rgb(255, 82, 0);
+}
+
+#search{
+    width:500px;
+    height:30px;
+    border:1px solid rgba(0, 0, 0, 0.258);
+    border-radius:30px;
+    padding-left:20px;
+}
+
+.navbar_panel_logos{
+    display:flex;
+    align-items:center;
+    justify-content: center;;
+}
+
+
+#my_profile{
+    position:relative;
+    right:10px;
+}
+
+
+
+#order{
+    position:relative;
+    bottom:5px;
+    left:5px;
+}
+
+#order_logo{
+    position:relative;
+    top:5px;
+}
+
+#cart_logo{
+    position:relative;
+    right:2px;
+    top:5px;
+}
+
+
+#logo{
+    font-size:24px;
+    color:rgb(255, 82, 0);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.main_body{
+    height:100vh;
+    width:100%;
+    /* background-color:#90E0EF; */
+}
+
+.hero_body{
+    background-color:whitesmoke;
+    height:126px;
+    width:100%;
+    position:relative;
+    top:60px;
+}
+
+
+.panel1{
+    height:126px;
+    width:100%;
+    background-color:#ffffff;
+    position:relative;
+    top:10px;
+    display:flex;
+    align-items:center;
+    padding-left:16px;
+    justify-content: space-evenly;
+    
+}
+.food_section{
+    position:relative;
+    top: 100px;
+}
+
+.hero_body_main_sections{
+    display:flex;
+    justify-content: center;
+    /* position:relative;
+    top:50px; */
+
+}
+
+
+
+.section1{
+    height:270px;
+    width:78%;
+    /* background-color:red; */
+}
+
+.panel_one{
+    margin-top:20px;
+}
+
+#Whats_on_your_mind{
+    font-size:21px;
+    font-weight:bolder;
+}
+
+.dishes{
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#main-hr{
+    width:78%;
+    margin-top:20px;
+    margin-bottom:40px;
+    position:absolute;
+    left:168px;
+    border:none;
+    border-top:1px solid rgba(0, 0, 0, 0.142);
+}
+
+
+.section2{
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+    position:relative;
+    top:20px;
+    /* background-color: red;; */
+}
+
+.main_body{
+    display:flex;
+    flex-direction:column;
+    height:350px;
+    width:78%;
+    /* background-color:green; */
+}
+.panel2{
+    /* height:270px; */
+    width:78%;
+    /* background-color:yellow; */
+}
+
+
+#Top_restaurant_chains_in_Chhindwara{
+    font-size:21px;
+    margin-bottom:16px;
+}
+
+.restaurants{
+    /* height:182px; */
+    display:flex;
+    justify-content:space-between;
+
+}
+.box1{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("sai\ restaurants.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+#boxes{
+    transition: transform 0.3s ease;
+}
+#boxes:hover{
+    transform: scale(0.97);
+}
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1.5px;
+    color: rgba(255, 255, 255, 0.92);
+    overflow: hidden;
+    position:relative;
+    top:150px;
+    left:15px;
+    bottom:0px;
+    text-transform: uppercase;
+}
+
+
+
+.box2{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url(dev\ international.avif) center/cover no-repeat;
+    background-size: cover;
+}
+
+
+
+.box3{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("adil\ hotel.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.box4{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("bakery\ world.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.restaurant_names{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+    width: 100%;
+    position:relative;
+    top:10px;
+    left:10px;
+    text-transform: capitalize;
+}
+
+.rating{
+    position:relative;
+    left:10px;
+    top:15px;
+    display:flex;
+    font-weight:500;
+
+}
+
+.places{
+        font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    position:relative;
+    top:20px;
+    left:10px;
+}
+
+.section3{
+    display:flex;
+    justify-content:center;
+    /* background-color:red; */
+    position:relative;
+    top:10px;
+}
+
+.section3panel3{
+    display:flex;
+    flex-direction:column;
+    height:350px;
+    width:78%;
+    /* background-color:green; */
+}
+
+.Restaurants_with_online_food_delivery{
+    margin-bottom:16px;
+}
+
+
+.box5{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("coffee.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.box6{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("pizza\ hut.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.box7{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("pastas\ by\ pizza\ hut.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.box8{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("yummy\ butter.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.section4{
+    display:flex;
+    justify-content:center;
+    /* background-color:red; */
+    position:relative;
+    top:10px;
+}
+
+.section4panel4{
+    display:flex;
+    flex-direction:column;
+    height:325px;
+    width:78%;
+    /* background-color:green; */
+}
+
+.box9{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("dosa.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+
+.box10{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("radhey.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+
+.box11{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("shree.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.box12{
+    height:182px;
+    width:273px;
+    /* border:1px solid black; */
+    border-radius:15px;
+    background:linear-gradient(to top, rgba(0,0,0,0.7)10%, transparent 60%),
+    url("naivedyam.avif") center/cover no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    background-color:#f5f5f5;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    position:relative;
+    top:150px;
+}
+
+
+#footer_logo{
+    color:#ff5200;
+    font-size:34px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    text-decoration:none;
+    position:relative;
+    top:50px;
+    left:120px;
+}
+
+.footer_links{
+    /* background-color:green;  */
+    height:300px;
+    width:90%;
+    position:relative;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(2, 6, 12, 0.142)
+}
+
+.footer_links_sections ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.footer_links_sections ul,li:hover{
+    color:#ff5200;
+}
+
+.footer_links_sections_four ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.social_media_logos{
+    padding-right:5px;
+}
+
+
+.footer_links_headings{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    pointer-events: none;
+    
+}
+
+.company_links{
+    font-size:16px;
+
+}
+
+.copyright_section{
+    height:50px;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    position:relative;
+    top:100px;
+    align-items:center;
+    justify-content: center;
+}
+
+#copyright{
+    color:rgba(2, 6, 12, 0.6);
+    font-size:14px;
+    padding-top:10px;
+}

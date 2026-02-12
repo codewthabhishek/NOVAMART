@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:#ffffff;
+    align-content: center;
+    position:fixed;
+    z-index:2;
+    /* border: top 2px; */
+    border-bottom:1px solid rgba(0, 0, 0, 0.258);
+}
+
+.navbar_panel{
+    display:flex;
+    justify-content: space-around;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_buttons{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    top:5px;
+}
+
+.navbar_buttons:hover{
+    color:rgb(255, 82, 0);
+}
+
+#search{
+    width:500px;
+    height:30px;
+    border:1px solid rgba(0, 0, 0, 0.258);
+    border-radius:30px;
+    padding-left:20px;
+}
+
+.navbar_panel_logos{
+    display:flex;
+    align-items:center;
+    justify-content: center;;
+}
+
+
+#my_profile{
+    position:relative;
+    right:10px;
+}
+
+
+
+#order{
+    position:relative;
+    bottom:5px;
+    left:5px;
+}
+
+#order_logo{
+    position:relative;
+    top:5px;
+}
+
+#cart_logo{
+    position:relative;
+    right:2px;
+    top:5px;
+}
+
+
+#logo{
+    font-size:24px;
+    color:rgb(255, 82, 0);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+/* body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff6ec;
+    padding: 30px;
+} */
+
+.profile-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.profile-container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.profile-card {
+    background: linear-gradient(135deg, #ffffff, #ffe5d0);
+    padding: 20px;
+    border-radius: 16px;
+    border-left: 6px solid #ff5500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-card.full {
+    grid-column: span 2;
+}
+
+.profile-card h2 {
+    font-size: 22px;
+    color: #ff5500;
+    margin-bottom: 18px;
+}
+
+.info-row {
+    display: flex;
+    margin: 8px 0;
+}
+
+.label {
+    width: 140px;
+    font-weight: 600;
+    color: #444;
+}
+
+.value {
+    color: #222;
+    font-weight: 500;
+}
+
+.logout-btn {
+    background: #ff5500;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #e13e00;
+}
+
+.faq-list li {
+    margin: 6px 0;
+    color: #555;
+}
+
+.footer{
+    background-color:#f5f5f5;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    position:relative;
+    top:150px;
+}
+
+
+#footer_logo{
+    color:#ff5200;
+    font-size:34px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    text-decoration:none;
+    position:relative;
+    top:50px;
+    left:120px;
+}
+
+.footer_links{
+    /* background-color:green;  */
+    height:300px;
+    width:90%;
+    position:relative;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(2, 6, 12, 0.142)
+}
+
+.footer_links_sections ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.footer_links_sections ul,li:hover{
+    color:#ff5200;
+}
+
+.footer_links_sections_four ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.social_media_logos{
+    padding-right:5px;
+}
+
+
+.footer_links_headings{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    pointer-events: none;
+    
+}
+
+.company_links{
+    font-size:16px;
+
+}
+
+.copyright_section{
+    height:50px;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    position:relative;
+    top:100px;
+    align-items:center;
+    justify-content: center;
+}
+
+#copyright{
+    color:rgba(2, 6, 12, 0.6);
+    font-size:14px;
+    padding-top:10px;
+}

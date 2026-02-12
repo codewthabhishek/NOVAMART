@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header class="header">
+    <div class="navbar">
+        <div class="navbar_panel">
+            <a href="#" id="logo">NovaMart</a>
+            <form action="/search.php">
+                <input type="search" placeholder="Search for clothing, brands and more" id="search" class="search">
+            </form>
+            <span class="navbar_panel_logos">
+                <img src="/profilelogo.png" alt="user profile logo" width="50px">
+                <a href="profile.html" class="navbar_buttons" id="my_profile">My Profile</a>
+            </span>
+            
+            <span class="navbar_panel_logos">
+                <img src="/Mycartlogo.png" alt="cart logo" width="25px" id="cart_logo">
+                <a href="cart.html" class="navbar_buttons" id="mycart">Cart</a>
+            </span>
+            <span class="navbar_panel_logos">
+                <img src="/orderlogo.png" alt="cart logo" width="25px" id="order_logo">
+                <a href="orders.html" class="navbar_buttons" id="order">Orders</a>
+            </span>
+            
+        </div>
+    </div>
+    </header>
+<br><br>
+    <main>
+    <div class="product-page">
+
+        <!-- LEFT SIDE -->
+        <div class="product-left">
+            <div class="thumbnail-list" id="thumbnails"></div>
+
+            <div class="main-image">
+                <img id="mainImage" src="" alt="">
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="product-right">
+            <h2 id="productTitle"></h2>
+
+            <p class="brand">Brand: <span id="productBrand"></span></p>
+
+            <div class="rating-box">
+                ⭐ <span id="productRating"></span> | <span id="ratingCount"></span> Ratings
+            </div>
+
+            <div class="price-box">
+                <span class="price" id="productPrice"></span>
+                <span class="cut-price" id="productMRP"></span>
+                <span class="discount" id="productDiscount"></span>
+            </div>
+
+            <h4>Colors</h4>
+            <div class="color-box" id="colorBox"></div>
+
+            <h4>Size</h4>
+            <div class="size-box">
+                <button class="size-btn">M</button>
+                <button class="size-btn">L</button>
+                <button class="size-btn">XL</button>
+                <button class="size-btn">XXL</button>
+            </div>
+
+            <div class="btn-group">
+                <button id="btnCart" class="btn-cart">ADD TO CART</button>
+                <button id="btnBuy" class="btn-buy">BUY NOW</button>
+            </div>
+        </div>
+
+    </div>
+</main>
+<footer class="footer">
+        <div class="footer_logo">
+            <a href="#" id="footer_logo">NovaMart</a>
+        </div>
+
+        <div class="footer_links">
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">company</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li>about us</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy policy</li>
+                            <li>Partners</li>
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">For customers</li>
+                            <a href="#" class="footer_links_heading_categories">
+                        <a href="/NovaMart/index.html"><img src="novamart.png" alt="NovaMart logo" width="150px"></a> 
+                        <a href="/NovaMart/NovaEats/index.html"><img src="NovaEats.png" alt="NovaEats logo" width="150px"></a>  
+                        <a href="/NovaMart/NovaEats/NovaServices/index.html"><img src="NovaServices.png" alt="NovaServices logo" width="150px"></a>    
+                            
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections">
+                <ul>
+                            <li class="footer_links_headings">Contact us</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li>Help & Support</li>
+                            
+                            </a>
+                        </ul>
+            </div>
+            <div class="footer_links_sections_four ">
+                <ul>
+                            <li class="footer_links_headings">Connect</li>
+                            <a href="#" class="footer_links_heading_categories">
+                            <li><img src="/instagram.png" alt="instagram logo" width="20px" class="social_media_logos">Instagram</li>
+                            <li><img src="/linkedin.png" alt="instagram logo" width="20px" class="social_media_logos">Linkedin</li>
+                            <li><img src="/twitter.png" alt="instagram logo" width="20px" class="social_media_logos">Twitter</li>
+                            <li><img src="/facebook.png" alt="instagram logo" width="20px" class="social_media_logos">Facebook</li>
+                            </a>
+                        </ul>
+            </div>
+            
+        </div>
+        <div class="copyright_section">
+                <p id="copyright">© 2025 NovaMart. All rights reserved.</p>
+            
+        </div>
+    </footer>
+
+<script src="product.js"></script>
+
+
+</body>
+</html>

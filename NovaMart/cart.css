@@ -1,0 +1,256 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:#ffffff;
+    align-content: center;
+    position:fixed;
+    z-index:2;
+    /* border: top 2px; */
+    border-bottom:1px solid rgba(0, 0, 0, 0.258);
+}
+
+.navbar_panel{
+    display:flex;
+    justify-content: space-around;
+    /* border-bottom:1px solid rgba(0, 0, 0, 0.258); */
+}
+
+.navbar_buttons{
+    text-decoration:none;
+    color:black;
+    position:relative;
+    top:5px;
+}
+
+.navbar_buttons:hover{
+    color:rgb(255, 82, 0);
+}
+
+#search{
+    width:500px;
+    height:30px;
+    border:1px solid rgba(0, 0, 0, 0.258);
+    border-radius:30px;
+    padding-left:20px;
+}
+
+.navbar_panel_logos{
+    display:flex;
+    align-items:center;
+    justify-content: center;;
+}
+
+
+#my_profile{
+    position:relative;
+    right:10px;
+}
+
+
+
+#order{
+    position:relative;
+    bottom:5px;
+    left:5px;
+}
+
+#order_logo{
+    position:relative;
+    top:5px;
+}
+
+#cart_logo{
+    position:relative;
+    right:2px;
+    top:5px;
+}
+
+
+#logo{
+    font-size:24px;
+    color:rgb(255, 82, 0);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+/* body{
+    font-family: Segoe UI, sans-serif;
+    background:#f1f3f6;
+    margin:0;
+    padding:20px;
+} */
+
+.cart-title{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.cart-container{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.cart-items{
+    width:65%;
+}
+
+.cart-item{
+    display:flex;
+    background:#fff;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:6px;
+    align-items:center;
+    gap:20px;
+}
+
+.cart-item img{
+    width:100px;
+    height:120px;
+    object-fit:cover;
+    border-radius:6px;
+}
+
+.item-info h3{
+    margin:0;
+    font-size:20px;
+}
+
+.remove-btn{
+    margin-left:auto;
+    background:#ff3f6c;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.cart-summary{
+    width:30%;
+    background:#fff;
+    padding:15px;
+    border-radius:6px;
+    height: fit-content;
+}
+
+.btn-order{
+    width:100%;
+    background:#fb641b;
+    color:white;
+    border:none;
+    padding:12px;
+    font-size:18px;
+    margin-top:20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+.footer{
+    background-color:#f5f5f5;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    position:relative;
+    top:150px;
+}
+
+
+#footer_logo{
+    color:#ff5200;
+    font-size:34px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    text-decoration:none;
+    position:relative;
+    top:50px;
+    left:120px;
+}
+
+.footer_links{
+    /* background-color:green;  */
+    height:300px;
+    width:90%;
+    position:relative;
+    top:100px;
+    left:100px;
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(2, 6, 12, 0.142)
+}
+
+.footer_links_sections ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.footer_links_sections ul,li:hover{
+    color:#ff5200;
+}
+
+.footer_links_sections_four ul,li{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style:none;
+    color: rgba(2, 6, 12, 0.6);
+    text-transform: capitalize;
+}
+
+.social_media_logos{
+    padding-right:5px;
+}
+
+
+.footer_links_headings{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    pointer-events: none;
+    
+}
+
+.company_links{
+    font-size:16px;
+
+}
+
+.copyright_section{
+    height:50px;
+    width:100%;
+    display:flex;
+    /* background-color:yellow; */
+    position:relative;
+    top:100px;
+    align-items:center;
+    justify-content: center;
+}
+
+#copyright{
+    color:rgba(2, 6, 12, 0.6);
+    font-size:14px;
+    padding-top:10px;
+}
